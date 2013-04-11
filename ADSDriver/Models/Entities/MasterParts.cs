@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Capital_Data_Driver.Models.Entities
+﻿namespace ADSDriver.Models.Entities
 {
     public partial class MasterParts
     {

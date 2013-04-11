@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Advantage.Data;
-using Advantage.Data.Provider;
+﻿using ADSDriver.Models.Entities;
+using Capital_Data_Driver.Generic;
 
-namespace Capital_Data_Driver.Models.Tables
+namespace ADSDriver.Models.Tables
 {
 
-    public class MASTPART : Generic.TGenericTable<Entities.MasterParts>
+    public class MASTPART : TGenericTable<MasterParts>
     {
         public MASTPART()
         {
             _TableName = "MASTPART";
         }
 
-        public Entities.MasterParts FindByID(string ID)
+        public MasterParts FindByID(string ID)
         {
             return null;
         }
