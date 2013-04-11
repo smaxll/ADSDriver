@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSDriver", "ADSDriver\ADSDriver.csproj", "{162C6876-3EB2-4001-8F27-4C66CACBB1EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSDriverTest", "ADSDriverTest\ADSDriverTest.csproj", "{B51E070C-8CD6-4428-BA67-F2C339265845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSDriver_EF", "ADSDriver_EF\ADSDriver_EF.csproj", "{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{162C6876-3EB2-4001-8F27-4C66CACBB1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162C6876-3EB2-4001-8F27-4C66CACBB1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162C6876-3EB2-4001-8F27-4C66CACBB1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51E070C-8CD6-4428-BA67-F2C339265845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51E070C-8CD6-4428-BA67-F2C339265845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51E070C-8CD6-4428-BA67-F2C339265845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51E070C-8CD6-4428-BA67-F2C339265845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
