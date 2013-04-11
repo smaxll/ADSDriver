@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B51E070C-8CD6-4428-BA67-F2C339265845}</ProjectGuid>
+    <ProjectGuid>{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ADSDriverTest</RootNamespace>
-    <AssemblyName>ADSDriverTest</AssemblyName>
+    <RootNamespace>ADSDriver_EFTest</RootNamespace>
+    <AssemblyName>ADSDriver_EFTest</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
