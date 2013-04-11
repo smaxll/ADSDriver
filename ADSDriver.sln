@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSDriverTest", "ADSDriverT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSDriver_EF", "ADSDriver_EF\ADSDriver_EF.csproj", "{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSDriver_EFTest", "ADSDriver_EFTest\ADSDriver_EFTest.csproj", "{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6D5B2FD-B309-4BE8-A6E3-A8AC53D16289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

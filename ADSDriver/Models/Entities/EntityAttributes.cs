@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Capital_Data_Driver.Models.Entities
+namespace ADSDriver.Models.Entities
 {
     [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = false)]
     public class ColumnAttribute : Attribute

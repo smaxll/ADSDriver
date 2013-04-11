@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Advantage.Data;
-using Advantage.Data.Provider;
+﻿using Advantage.Data.Provider;
 
 namespace Capital_Data_Driver.Generic
 {

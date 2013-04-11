@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{162C6876-3EB2-4001-8F27-4C66CACBB1EB}</ProjectGuid>
+    <ProjectGuid>{B0966DE2-B233-4CCD-9C2F-8AF57980E70A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ADSDriver</RootNamespace>
-    <AssemblyName>ADSDriver</AssemblyName>
+    <RootNamespace>ADSDriver_EFTest</RootNamespace>
+    <AssemblyName>ADSDriver_EFTest</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,10 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Advantage.Data.Provider, Version=10.10.2.28, Culture=neutral, PublicKeyToken=e33137c86a38dc06, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Ref\Advantage.Data.Provider.dll</HintPath>
+<<<<<<< HEAD
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
     </Reference>
+=======
+>>>>>>> develop
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,18 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccess\ADSDatabase.cs" />
-    <Compile Include="Generic\AttributeExtensions.cs" />
-    <Compile Include="Generic\GenericTable.cs" />
-    <Compile Include="Maintenance\Maintenance.cs" />
-    <Compile Include="Models\Entities\EntityAttributes.cs" />
-    <Compile Include="Models\Entities\Invoice.cs" />
-    <Compile Include="Models\Entities\MasterParts.cs" />
-    <Compile Include="Models\Entities\MasterSuppliersParts.cs" />
-    <Compile Include="Models\Tables\Invoice.cs" />
-    <Compile Include="Models\Tables\MASTPART.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+=======
+>>>>>>> develop
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

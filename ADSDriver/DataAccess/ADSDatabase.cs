@@ -63,7 +63,7 @@ namespace ADSDriver.DataAccess
             }
             catch (Exception ex)
             {
-                throw new Exception("Unable to connect to database", ex);
+                throw new Exception("Open connection failed", ex);
             }
 
         }
