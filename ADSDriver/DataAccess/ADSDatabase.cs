@@ -54,7 +54,7 @@ namespace ADSDriver.DataAccess
     
 
         // Open the Database Connection
-        public void OpenConnection()
+        public bool OpenConnection()
         {
             try
             {
@@ -63,9 +63,10 @@ namespace ADSDriver.DataAccess
             }
             catch (Exception ex)
             {
-                throw new Exception("Open connection failed", ex);
+                return false;
             }
 
+            return true;
         }
 
         /// <summary>
